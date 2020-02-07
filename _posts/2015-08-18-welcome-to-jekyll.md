@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-08-18 15:07:19
-categories: [tutorial]
-comments: true
+title:  "Welcome!"
 ---
+I am Qiaoya Wu (吴巧雅). I am currently a junior undergraduate student in Department of Astronomy, Xiamen University.
+I'm interested in a variety of topics in astronomy and astrophysics, such as cosmological simulation, black hole binary, black hole accretion simulation and extra solar planet.
+
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
