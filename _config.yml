@@ -4,7 +4,7 @@
 ####################################
 #
 title: Qiaoya Wu
-email:
+email: 18980897268@163.com
 description: A simple and awesome blog theme powered by jekyll.
 url: https://qiaoyawu.github.io  # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: 吴巧雅
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  job: "Qiaoya Wu"
+  bio: "Current student in Xiamen University"
+  email: wuqiaoya@stu.xmu.edu.cn
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -48,7 +48,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: QiaoyaWu #username
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
