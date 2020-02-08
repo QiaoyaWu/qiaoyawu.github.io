@@ -7,6 +7,7 @@ title: "Publications"
 # share: true
 ---
 
+<!--more-->
 
 > And this is how a quote looks.
 
