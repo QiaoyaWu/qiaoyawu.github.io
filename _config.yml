@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Qiaoya Wu / Graduate Student in UIUC Astro"
+title                    : "Qiaoya Wu"
 title_separator          : "-"
 name                     : Qiaoya
 description              : Graduate Student in UIUC Astro
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Qiaoya Wu"
-  avatar           : "profile.png"
+  avatar           : "profile.JPG"
   bio              : "First-year garduate student"
   location         : "Urbana, IL"
   employer         :
