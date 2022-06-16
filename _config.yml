@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Qiaoya Wu | Graduate Student in UIUC Astro"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : Qiaoya
+description              : Graduate Student in UIUC Astro
 url                      : https://qiaoyawu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "QiaoyaWu/qiaoyawu.github.io"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
