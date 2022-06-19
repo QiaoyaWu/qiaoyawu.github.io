@@ -14,6 +14,5 @@ I work with Prof. Yue Shen on quasars observations and SDSS spectral analysis.
 
 Education
 ======
-2017-2021: B.Sc. in Astronomy, Xiamen University, China
-
+2017-2021: B.Sc. in Astronomy, Xiamen University, China \
 2021-present: Graduate student in Astronomy, University of Illinois at Urbana-Champaign
