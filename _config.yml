@@ -94,7 +94,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "Qiaoya Wu"
   foursquare       :
   github           : "QiaoyaWu"
   google_plus      :
@@ -219,7 +219,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
+    - scope:
+        path: ""
+        type: research
+      values:
+        layout: single
+        author_profile: true
+        share: true
+        comments: true
   # _talks
   - scope:
       path: ""
