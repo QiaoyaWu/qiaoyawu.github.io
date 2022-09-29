@@ -192,13 +192,13 @@ collections:
 # Defaults
 defaults:
   # _posts
-  #- scope:
-      #path: ""
-      #type: posts
-    #values:
-      #layout: single
-      #author_profile: true
-      #read_time: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
       #comments: true
       #share: true
       #related: true
@@ -220,14 +220,14 @@ defaults:
       share: true
       comments: true
   # _research
-    - scope:
-        path: ""
-        type: posts
-      values:
-        layout: single
-        author_profile: true
-        share: true
-        comments: true
+  #  - scope:
+  #      path: ""
+  #      type: research
+  #    values:
+  #      layout: single
+  #      author_profile: true
+  #      share: true
+  #      comments: true
   # _talks
   - scope:
       path: ""
