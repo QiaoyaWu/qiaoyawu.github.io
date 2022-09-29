@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am Qiaoya Wu (吴巧雅), a first-year graduate student in the Department of Astronomy at University of Illinois, Urbana-Champaign.
+Hi, I am Qiaoya Wu (吴巧雅), a second-year graduate student in the Department of Astronomy at University of Illinois, Urbana-Champaign.
 My research interests are active galactic nuclei (AGNs/quasars), black hole binaries and cosmological large scale structure.
-I work with Prof. Yue Shen on quasars observations and SDSS spectral analysis.
+I work with Prof. Yue Shen on quasar observations and SDSS spectral analysis.
 
 
 Education
