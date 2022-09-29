@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : Qiaoya
 description              : Graduate Student in UIUC Astro
 url                      : https://qiaoyawu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "QiaoyaWu/qiaoyawu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Qiaoya Wu"
   avatar           : "profile.JPG"
-  bio              : "First-year garduate student in UIUC Astro"
+  bio              : "Garduate student in UIUC Astro"
   location         : "Urbana, IL"
   employer         :
   pubmed           :
-  googlescholar    : "Qiaoya, Wu"
+  googlescholar    : "Qiaoya Wu"
   email            : "qiaoyaw2@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -192,16 +192,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  #- scope:
+      #path: ""
+      #type: posts
+    #values:
+      #layout: single
+      #author_profile: true
+      #read_time: true
+      #comments: true
+      #share: true
+      #related: true
   # _pages
   - scope:
       path: ""
@@ -220,14 +220,14 @@ defaults:
       share: true
       comments: true
   # _research
-  #  - scope:
-  #      path: ""
-  #      type: research
-  #    values:
-  #      layout: single
-  #      author_profile: true
-  #      share: true
-  #      comments: true
+    - scope:
+        path: ""
+        type: posts
+      values:
+        layout: single
+        author_profile: true
+        share: true
+        comments: true
   # _talks
   - scope:
       path: ""
