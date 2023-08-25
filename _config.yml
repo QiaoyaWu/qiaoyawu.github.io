@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Qiaoya Wu"
 title_separator          : "-"
 name                     : Qiaoya
-description              : Graduate Student in UIUC Astro
+description              : PhD candidate in UIUC Astro
 url                      : https://qiaoyawu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "QiaoyaWu/qiaoyawu.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Qiaoya Wu"
   avatar           : "profile.JPG"
-  bio              : "Garduate student in UIUC Astro"
+  bio              : "PhD candidate in UIUC Astro"
   location         : "Urbana, IL"
   employer         :
   pubmed           :
