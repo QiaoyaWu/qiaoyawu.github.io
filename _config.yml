@@ -86,7 +86,7 @@ author:
   location         : "Urbana, IL"
   employer         :
   pubmed           :
-  googlescholar    : "Qiaoya Wu"
+  googlescholar    : "https://scholar.google.com/citations?user=kdtyB_cAAAAJ&hl=en&oi=ao"
   email            : "qiaoyaw2@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -247,7 +247,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
