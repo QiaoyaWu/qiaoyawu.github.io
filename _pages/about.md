@@ -21,6 +21,7 @@ Education
 
 Research
 ======
+
 Quasar spectral survey analysis
 ------
 Over the past decades, large-scale wide and deep field surveys such as the Sloan Digital Sky Survey (SDSS) with multi-wavelength coverage have facilitated the studies of quasars and AGNs. In essence, these large, homogeneous data sets allow statistical analysis of the phenomenological properties of quasars, offering new insights into how the central engine powers these objects and their connections to their host galaxies. Meanwhile, detailed investigations of fitting the quasar/AGN population into the cosmological context have become possible with these samples, i.e., how the supermassive black hole population evolves along with its host galaxy across cosmic time. Such survey data have led to a coherent picture of the cosmic evolution of the SMBH population within the concordance $\Lambda$CDM paradigm and will give us unique opportunities to measure quasar properties with unprecedented precision.
