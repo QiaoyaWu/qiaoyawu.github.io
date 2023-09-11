@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 Hi, I am Qiaoya Wu (吴巧雅), a third-year graduate student in the Department of Astronomy at the University of Illinois, Urbana-Champaign.
-I work with Prof. Yue Shen on multi-wavelength observations on active galactic nuclei (AGNs/quasars), quasar spectral surveys, black hole binaries, and cosmological large-scale structures.
+I work with [Prof. Yue Shen](http://quasar.astro.illinois.edu/index.html#) on multi-wavelength observations on active galactic nuclei (AGNs/quasars), quasar spectral surveys, black hole binaries, and cosmological large-scale structures.
 
 [Download CV](http://qiaoyawu.github.io/files/CV_for_web.pdf)
 
