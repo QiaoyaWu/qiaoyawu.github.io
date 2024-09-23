@@ -7,8 +7,8 @@ redirect_from:
   - /resume
 ---
 
-======
-Current
+
+Recent
 ======
 
 Quasar Spectral Survey Analysis
