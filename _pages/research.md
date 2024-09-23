@@ -1,24 +1,13 @@
 ---
-permalink: /
-title: "About me"
-excerpt: "About me"
+layout: archive
+title: "Research"
+permalink: /research/
 author_profile: true
 redirect_from:
-  - /about/
-  - /about.html
+  - /resume
 ---
-Hi, I am Qiaoya Wu (吴巧雅), a fourth-year graduate student in the Department of Astronomy at the University of Illinois, Urbana-Champaign.
-I work with [Prof. Yue Shen](http://quasar.astro.illinois.edu/index.html#) on multi-wavelength observations on active galactic nuclei (AGNs/quasars), quasar spectral surveys, and photoionization models. I am also interested in black hole binaries and cosmological large-scale structure.
 
-[View CV](http://qiaoyawu.github.io/files/CV_for_web.pdf)
-
-
-Education
-======
-2017-2021: B.Sc. in Astronomy, Xiamen University, China \
-2021-present: Graduate student in Astronomy, University of Illinois at Urbana-Champaign
-
-Research
+Current focus
 ======
 
 Quasar spectral survey analysis
@@ -30,6 +19,10 @@ In my recent work [Wu & Shen (2022)](https://iopscience.iop.org/article/10.3847/
 Broad-line Region Study with UV Spectroscopy
 ------
 Nearly two decades of reverberation mapping (RM) studies on nearby AGN have revealed a tight correlation between the size of the Hbeta broad-line region and the optical luminosity of the AGN, designated the R-L relation. However, recent RM studies targeting AGNs across broad ranges of luminosities and Eddington ratios have found evidence for increased scatter around the canonical R − L relation (Du et al. 2014; Grier et al. 2017; Shen et al. 2023). The most likely explanation of this offset is that these new RM samples explore AGNs that have different accretion rates and therefore different shapes of the continuum spectral energy distribution (SED), responsible for ionizing the line-emitting gas, than the nearby RM AGN sample. Therefore, I am modeling the UV spectra with detailed photoionization calculations to constrain the ionizing continuum directly incident on the broad-line region gas. The combination of UV and optical spectroscopy for AGN samples with direct RM-based black hole masses will enable better SED-fitting to constrain accretion parameters and better calibrations of single-epoch mass recipes based on UV broad emission lines.
+
+
+Previous researches
+=====
 
 Black Hole Binary Dynamics
 ------
