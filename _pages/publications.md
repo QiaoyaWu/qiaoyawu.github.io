@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 Major Contribution Papers
-======
+------
 
 - **Wu, Q.**, Shen, Y., Guo, H., et al. (2025). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. I. the Moderate-Accretion Regime. *The Astrophysical Journal*, **980**(1), 134.
 - **Wu, Q.**, & Shen, Y. (2023). Improved Redshifts for DESI EDR Quasars. *Research Notes of the AAS*, **7**(9), 190.
@@ -16,7 +16,7 @@ Major Contribution Papers
 
 
 Other Contributing-Author Papers
-======
+------
 - Nandra, K., et al. "The eROSITA Final Equatorial Depth Survey (eFEDS)-The hard X-ray selected sample." *Astronomy & Astrophysics*, **693**, A212.
 - Musiimenta, B., et al. "A new discovery space opened by eROSITA-Ionised AGN outflows from X-ray selected samples." *Astronomy & Astrophysics*, **679** (2023): A84.
 - Waddell, S. GH, et al. "The eROSITA Final Equatorial Depth Survey (eFEDS): Complex absorption and soft excesses in hard X-ray–selected active galactic nuclei." *Astronomy & Astrophysics*, **690**, A132.
