@@ -14,6 +14,11 @@ Hi, I’m Qiaoya Wu (吴巧雅, "Woo, Chow-Yah"), a fourth-year PhD student in t
 
 🔗 [ADS link](https://ui.adsabs.harvard.edu/search/q=docs(library%2FxmjOFxrfRkuPawmB1l3nhQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0)  
 
+
+## Education
+- **2017-2021**: B.Sc. in Astronomy, Xiamen University, China  
+- **2021-present**: Graduate student in Astronomy, University of Illinois at Urbana-Champaign
+
 Beyond academia, I enjoy badminton, board games, and spending quality time with my beloved cat, Nova.
 
 ## **Fun Facts**
@@ -23,7 +28,3 @@ Beyond academia, I enjoy badminton, board games, and spending quality time with 
 - Watched and rated more than 1,100 movies and/or shows.
 
 (Updated on Feb, 2025)
-
-## Education
-- **2017-2021**: B.Sc. in Astronomy, Xiamen University, China  
-- **2021-present**: Graduate student in Astronomy, University of Illinois at Urbana-Champaign
