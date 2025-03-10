@@ -21,7 +21,7 @@ Hi, I’m Qiaoya Wu (吴巧雅, "Woo, Chow-Yah"), a fourth-year PhD student in t
 
 Beyond academia, I enjoy badminton, board games, and spending quality time with my beloved cat, Nova.
 
-## **Fun Facts**
+## Fun Facts
 - Owner of more than a dozen board games (some of them require at least an hour just to explain the rules!).
 - Have survived dozens of earthquakes (I’m from Sichuan, where the frequency of earthquakes is relatively high).
 - Spent 12 years learning sketching, only to realize I might not be the next Van Gogh—but I still enjoy it!
