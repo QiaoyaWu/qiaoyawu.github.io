@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 
-# Recent Work
-
 Quasar Spectral Survey Analysis
 ------
 Over the past decades, large-scale wide and deep field surveys such as the Sloan Digital Sky Survey (SDSS) with multi-wavelength coverage have facilitated the studies of quasars and AGNs. 
@@ -21,7 +19,6 @@ AGN Line-Emitting Region Photoionization
 ------
 My recent publication ([Wu et al. 2025](https://iopscience.iop.org/article/10.3847/1538-4357/ada386)) statistically compares observed UV emission-line properties and BLR cloud distances with photoionization modeling for a subsample of quasars with reverberation mapping (RM) observations. These models successfully reproduce key trends in UV/optical line strengths and their dependence on accretion parameters, offering a new method to infer the unobservable ionizing continuum using optical/UV line flux ratios. Furthermore, my work qualitatively recovers the size-luminosity relation for the RM AGN sample, suggesting that BLR gas density and structure may evolve systematically with accretion rate. 
 
-# Previous Work
 
 Black Hole Binary Dynamics
 ------
