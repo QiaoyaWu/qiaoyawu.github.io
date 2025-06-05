@@ -17,7 +17,7 @@ Hi, I’m Qiaoya Wu (吴巧雅, "Woo, Chow-Yah"), a fourth-year PhD student in t
 
 ## Education
 - **2017-2021**: B.Sc. in Astronomy, Xiamen University, China  
-- **2021-present**: Graduate student in Astronomy, University of Illinois at Urbana-Champaign
+- **2021-present**: PhD student in Astronomy, University of Illinois at Urbana-Champaign
 
 Beyond academia, I enjoy badminton, board games, and spending quality time with my beloved cat, Nova.
 
