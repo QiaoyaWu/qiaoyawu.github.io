@@ -6,8 +6,7 @@ author_profile: True
 redirect_from:
   - /resume
 ---
-
-[Download CV](http://qiaoyawu.github.io/files/CV_for_web.pdf)  
+ 
 
 {% include base_path %}
 
@@ -32,6 +31,5 @@ redirect_from:
 {% include cv-template.html %}
 
 <div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+  <a href="http://qiaoyawu.github.io/files/CV_for_web.pdf" class="btn btn--primary">Download CV as PDF</a>
 </div>
