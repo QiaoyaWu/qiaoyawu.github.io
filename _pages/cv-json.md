@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+[Download CV](http://qiaoyawu.github.io/files/CV_for_web.pdf)  
+
 {% include base_path %}
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css">

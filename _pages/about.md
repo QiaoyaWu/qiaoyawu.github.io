@@ -14,17 +14,3 @@ Hi, I’m Qiaoya Wu (吴巧雅, "Woo, Chow-Yah"), a fourth-year PhD student in t
 
 🔗 [ADS link](https://ui.adsabs.harvard.edu/search/q=docs(library%2FxmjOFxrfRkuPawmB1l3nhQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0)  
 
-
-## Education
-- **2017-2021**: B.Sc. in Astronomy, Xiamen University, China  
-- **2021-present**: PhD student in Astronomy, University of Illinois at Urbana-Champaign
-
-Beyond academia, I enjoy badminton, board games, and spending quality time with my beloved cat, Nova.
-
-## Fun Facts
-- Owner of more than a dozen board games (some of them require at least an hour just to explain the rules!).
-- Have survived dozens of earthquakes (I’m from Sichuan, where the frequency of earthquakes is relatively high).
-- Spent 12 years learning sketching, only to realize I might not be the next Van Gogh—but I still enjoy it!
-- Watched and rated more than 1,100 movies and/or shows.
-
-(Updated on Feb, 2025)
