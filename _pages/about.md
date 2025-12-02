@@ -14,3 +14,5 @@ Hi, I’m Qiaoya Wu (吴巧雅, "Woo, Chow-Yah"), a fifth-year PhD student in th
 
 🔗 [ADS link](https://ui.adsabs.harvard.edu/search/q=docs(library%2FxmjOFxrfRkuPawmB1l3nhQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0)  
 
+### Education
+- B.S. Astronomy, Xiamen University (2021)
