@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I’m Qiaoya Wu (吴巧雅, "Woo, Chow-Yah"), a fifth-year PhD student in the Department of Astronomy at the University of Illinois, Urbana-Champaign, working with [Prof. Yue Shen](http://quasar.astro.illinois.edu/index.html#). My research focuses on **active galactic nuclei (AGNs)** and **quasars**, especially their multi-wavelength spectral properties, BLR photoionization models and accretion physics. 
+Hi, I’m Wu, Qiaoya (吴巧雅, "Woo, Chow-Yah"), a fifth-year PhD student in the Department of Astronomy at the University of Illinois, Urbana-Champaign, working with [Prof. Yue Shen](http://quasar.astro.illinois.edu/index.html#). My research focuses on **active galactic nuclei (AGNs)** and **quasars**, especially their multi-wavelength spectral properties, BLR photoionization models and accretion physics. 
 
 📄 [View CV](http://qiaoyawu.github.io/files/CV_for_web.pdf)  
 

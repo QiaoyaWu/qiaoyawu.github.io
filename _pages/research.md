@@ -13,18 +13,14 @@ Quasar Spectral Survey Analysis
 Over the past decades, large-scale wide and deep field surveys with multi-wavelength coverage have facilitated the studies of quasars and AGNs. I have measured the spectral properties of millions of quasars and all data product are public to the community. 
 
 ### Sloan Digital Sky Survey (SDSS) quasars
-
 #### SDSS-IV DR16Q
-
 In [Wu & Shen (2022)](https://iopscience.iop.org/article/10.3847/1538-4365/ac9ead), we measured spectral properties for the 750,414 quasars included in the SDSS Data Release 16 Quasar (DR16Q) catalog (Lyke et al. 2020). These quasars cover broad ranges in redshift ($0.1\lesssim z\lesssim 6$) and luminosity ($44\lesssim \log{L_{\rm bol}/{\rm erg\, s^{-1}} \lesssim 48}$). Following established practice (e.g., Shen et al. 2011, 2019), we fit each spectrum with a global continuum–emission-line model using the public PyQSOFIT package (Guo et al. 2018), with minor, well-documented constraint adjustments. The input parameter file and reproducible workflow are available on [our GitHub repository](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial).
 
 #### SDSS-V DR19Q
 We performed visual inspection and measured spectral properties for 82,363 quasars observed in the SDSS DR19. Public access for [the value-added catalog](https://www.sdss.org/dr19/data_access/value-added-catalogs/?vac_id=10009) is available.
 
 ### Dark Energy Spectroscopic Instrument (DESI) quasars
-
 #### DESI EDR
-
 [Wu & Shen (2023)](https://iopscience.iop.org/article/10.3847/2515-5172/acf580) provides improved systemic redshift estimates for $∼95$k quasars in the DESI Early Data Release (EDR) using refined emission-line fitting techniques. Similar methods will be applied to the DESI Data Release 1 upon its publication.
 
 AGN Line-Emitting Region Photoionization
