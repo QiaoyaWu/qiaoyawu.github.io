@@ -16,5 +16,3 @@ Hi, I’m Wu, Qiaoya (吴巧雅, "Woo, Chow-Yah"), a fifth-year PhD student in t
 
 ### Education
 - B.S. Astronomy, Xiamen University (2021)
-
-<iframe src="http://qiaoyawu.github.io/files/CV_for_web.pdf" width="100%" height="600px"></iframe>
