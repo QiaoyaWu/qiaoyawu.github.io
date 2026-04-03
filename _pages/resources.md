@@ -1,12 +1,11 @@
 ---
 layout: archive
-title: "Research"
+title: "Resources"
 permalink: /resources/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
 
 ## Quasar Value-Added Catalogs
 
