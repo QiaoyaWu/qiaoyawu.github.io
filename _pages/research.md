@@ -108,14 +108,16 @@ Stellar-mass black holes in X-ray binaries provide important constraints on bina
 
 Cosmological N-body Simulation
 ------
-<div class="research-feature" style="--figure-width: 36%;" markdown="1">
+<div class="research-feature" style="--figure-width: 42%;" markdown="1">
 <div class="research-feature__text" markdown="1">
 
 The large-scale structure (LSS) of the Universe encodes information about cosmology and the growth of structure. A central goal of LSS studies is to reconstruct the initial conditions of the Universe from the present-day galaxy distribution. To explore the connection between cosmic initial conditions and late-time structure, I collaborated with [Prof. Haoran Yu](https://astro.xmu.edu.cn/info/1036/1292.htm) on cosmological N-body simulations using the [CUBE](https://ieeexplore.ieee.org/document/9139651) code. Our work examined the angular-momentum evolution of dark matter halos and its connection to initial conditions. In [Wu et al. 2021](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.063522), we introduced a Lagrangian spin parameter and tidal-twist parameters to quantify spin conservation and predictability in N-body simulations ([Poster](http://qiaoyawu.github.io/files/QiaoyaWu_hangzhou_poster_show.pdf)).
 
 </div>
 <figure class="research-feature__figure">
-  <img src="{{ '/images/holder.png' | relative_url }}" alt="Placeholder for a cosmological simulation figure">
-  <figcaption>Suggested figure: a simulation density slice, halo angular-momentum evolution plot, or spin/tidal-twist correlation from the CUBE analysis.</figcaption>
+  <a href="{{ '/files/QiaoyaWu_hangzhou_poster_show.pdf' | relative_url }}">
+    <img src="{{ '/images/cosmology_poster_preview.png' | relative_url }}" alt="Preview of the cosmological N-body simulation poster">
+  </a>
+  <figcaption>Poster preview for the CUBE N-body simulation project on halo spin correlations and primordial perturbations. Click the image to open the full PDF.</figcaption>
 </figure>
 </div>
