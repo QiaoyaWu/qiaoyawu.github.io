@@ -8,25 +8,11 @@ author_profile: true
 Major Contribution Papers
 ------
 
-**Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. I. the Moderate-Accretion Regime**  
-**Wu, Q.**, Shen, Y., Guo, H., et al. (2025), *The Astrophysical Journal*, 980(1), 134.  
-[Paper](https://iopscience.iop.org/article/10.3847/1538-4357/ada386)
-
-**Improved Redshifts for DESI EDR Quasars**  
-**Wu, Q.**, & Shen, Y. (2023), *Research Notes of the AAS*, 7(9), 190.  
-[Paper](https://iopscience.iop.org/article/10.3847/2515-5172/acf580) · [Code/Data](https://github.com/QiaoyaWu/DESI_EDR_qsofit)
-
-**A Catalog of Quasar Properties from Sloan Digital Sky Survey Data Release 16**  
-**Wu, Q.**, & Shen, Y. (2022), *The Astrophysical Journal Supplement Series*, 263(2), 42.  
-[Paper](https://iopscience.iop.org/article/10.3847/1538-4365/ac9ead) · [Data](http://quasar.astro.illinois.edu/paper_data/DR16Q/) · [Code/Tutorial](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial)
-
-**The Disk Veiling Effect of the Black Hole Low-mass X-Ray Binary A0620-00**  
-Zheng, W. M., **Wu, Q.**, Wu, J., et al. (2022), *The Astrophysical Journal*, 925(1), 83.  
-[Paper](https://iopscience.iop.org/article/10.3847/1538-4357/ac4332)
-
-**Spin mode reconstruction in Lagrangian space**  
-**Wu, Q.**, Yu, H. R., Liao, S., Du, M. (2021), *Physical Review D*, 103(6), 063522.  
-[Paper](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.063522) · [Poster](http://qiaoyawu.github.io/files/QiaoyaWu_hangzhou_poster_show.pdf)
+- **Wu, Q.**, Shen, Y., Guo, H., et al. (2025). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. I. the Moderate-Accretion Regime. *The Astrophysical Journal*, 980(1), 134.
+- **Wu, Q.**, & Shen, Y. (2023). Improved Redshifts for DESI EDR Quasars. *Research Notes of the AAS*, 7(9), 190.
+- **Wu, Q.**, & Shen, Y. (2022). A Catalog of Quasar Properties from Sloan Digital Sky Survey Data Release 16. *The Astrophysical Journal Supplement Series*, 263(2), 42.
+- Zheng, W. M., **Wu, Q.**, Wu, J., et al. (2022). The Disk Veiling Effect of the Black Hole Low-mass X-Ray Binary A0620-00*. *The Astrophysical Journal*, 925(1), 83.
+- **Wu, Q.**, Yu, H. R., Liao, S., Du, M. (2021). Spin mode reconstruction in Lagrangian space. *Physical Review D*, 103(6), 063522.
 
 
 Other Contributing-Author Papers
