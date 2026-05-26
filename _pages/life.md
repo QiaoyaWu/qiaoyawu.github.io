@@ -80,7 +80,7 @@ author_profile: true
 
 <section class="life-section">
   <h2>Nova the cat</h2>
-  <p>A small corner for Nova, who brings a different kind of gravity to daily life.</p>
+  <p>A small corner for my cat Nova, who brings a different kind of gravity to my life.</p>
 
   <div class="nova-gallery" aria-label="Horizontally scrollable photo gallery of Nova the cat">
     <figure>
@@ -90,7 +90,10 @@ author_profile: true
       <img src="{{ '/images/nova/nova2.JPG' | relative_url }}" alt="Nova the cat">
     </figure>
     <figure>
-      <img src="{{ '/images/nova/nova3.jpg' | relative_url }}" alt="Nova the cat">
+      <img src="{{ '/images/nova/nova3.jpeg' | relative_url }}" alt="Nova the cat">
+    </figure>
+    <figure>
+      <img src="{{ '/images/nova/nova4.JPG' | relative_url }}" alt="Nova the cat">
     </figure>
   </div>
 </section>
