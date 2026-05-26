@@ -58,7 +58,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="../talkmap/leaflet_dist/leaflet.markercluster.js"></script>
-  <script src="org-locations.js"></script>
   <script>
     const map = L.map("map", {
       center: [24, 15],
@@ -86,14 +85,35 @@
       maxClusterRadius: 35
     });
 
-    addressPoints.forEach((place) => {
-      const marker = L.marker([place[1], place[2]], { icon: markerIcon, title: place[0] })
-        .bindPopup(`<div class="travel-popup">${place[0]}</div>`);
-      markers.addLayer(marker);
-    });
+    function parseCsv(text) {
+      const rows = text.trim().split(/\r?\n/);
+      const headers = rows.shift().split(",");
+      return rows.map((row) => {
+        const values = row.split(",");
+        return headers.reduce((entry, header, index) => {
+          entry[header.trim()] = values[index].trim();
+          return entry;
+        }, {});
+      });
+    }
 
-    map.addLayer(markers);
-    map.fitBounds(markers.getBounds().pad(0.28));
+    fetch("visited-countries.csv")
+      .then((response) => response.text())
+      .then((csvText) => {
+        const visitedPlaces = parseCsv(csvText);
+
+        visitedPlaces.forEach((place) => {
+          const label = `<strong>${place.name}</strong><br />${place.note}`;
+          const marker = L.marker([Number(place.latitude), Number(place.longitude)], {
+            icon: markerIcon,
+            title: place.name
+          }).bindPopup(`<div class="travel-popup">${label}</div>`);
+          markers.addLayer(marker);
+        });
+
+        map.addLayer(markers);
+        map.fitBounds(markers.getBounds().pad(0.28));
+      });
   </script>
 </body>
 </html>

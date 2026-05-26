@@ -100,25 +100,11 @@ author_profile: true
 
 <section class="life-section">
   <h2>Travel</h2>
-  <p>Places I have visited, marked at country scale.</p>
+  <p>Travel map</p>
 
   <div class="travel-map">
     <iframe src="{{ '/travelmap/map.html' | relative_url }}" title="Interactive travel map"></iframe>
     <div class="travel-map__caption">Visited countries and regions. Drag, zoom, and click markers for labels.</div>
   </div>
 
-  <div class="travel-list" aria-label="Visited countries and regions">
-    <span>China (including Taiwan)</span>
-    <span>South Korea</span>
-    <span>Thailand</span>
-    <span>Malaysia</span>
-    <span>Singapore</span>
-    <span>Philippines</span>
-    <span>United States</span>
-    <span>United Kingdom</span>
-    <span>Germany</span>
-    <span>The Bahamas</span>
-    <span>Turks and Caicos Islands</span>
-    <span>Dominican Republic</span>
-  </div>
 </section>
