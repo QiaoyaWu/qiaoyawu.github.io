@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQXc8U8Y0sD9C6DkFLmT3b0L7n8T7N0=" crossorigin="">
+  <style>
+    html,
+    body,
+    #map {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: #f8fafc;
+      color: #222;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .leaflet-container {
+      background: #eef4f7;
+      font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .travel-popup strong {
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+
+    .travel-marker {
+      align-items: center;
+      background: #bc4b51;
+      border: 2px solid #fff;
+      border-radius: 999px;
+      box-shadow: 0 1px 6px rgba(30, 41, 59, 0.28);
+      display: flex;
+      height: 15px;
+      justify-content: center;
+      width: 15px;
+    }
+
+    .travel-marker::after {
+      border: 1px solid rgba(188, 75, 81, 0.35);
+      border-radius: 999px;
+      content: "";
+      height: 25px;
+      position: absolute;
+      width: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map" aria-label="Interactive map of places visited"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    const visitedPlaces = [
+      { name: "China", note: "Including Taiwan", lat: 34.0, lon: 104.0 },
+      { name: "Taiwan", note: "Visited region", lat: 23.8, lon: 121.0 },
+      { name: "South Korea", note: "Visited country", lat: 36.5, lon: 127.8 },
+      { name: "Thailand", note: "Visited country", lat: 15.9, lon: 101.0 },
+      { name: "Malaysia", note: "Visited country", lat: 4.2, lon: 102.0 },
+      { name: "Singapore", note: "Visited country", lat: 1.35, lon: 103.82 },
+      { name: "Philippines", note: "Visited country", lat: 12.9, lon: 122.7 },
+      { name: "United States", note: "Visited country", lat: 39.8, lon: -98.6 },
+      { name: "United Kingdom", note: "Visited country", lat: 55.4, lon: -3.4 },
+      { name: "Germany", note: "Visited country", lat: 51.2, lon: 10.4 },
+      { name: "Bahamas", note: "Visited country", lat: 25.0, lon: -77.4 },
+      { name: "Turks and Caicos", note: "Visited islands", lat: 21.8, lon: -71.8 },
+      { name: "Dominican Republic", note: "Visited country", lat: 18.7, lon: -70.2 }
+    ];
+
+    const map = L.map("map", {
+      center: [24, 15],
+      zoom: 2,
+      minZoom: 2,
+      maxZoom: 7,
+      scrollWheelZoom: false,
+      worldCopyJump: true
+    });
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    const markerIcon = L.divIcon({
+      className: "",
+      html: '<span class="travel-marker"></span>',
+      iconSize: [25, 25],
+      iconAnchor: [12, 12],
+      popupAnchor: [0, -10]
+    });
+
+    const markers = visitedPlaces.map((place) => {
+      return L.marker([place.lat, place.lon], { icon: markerIcon })
+        .bindPopup(`<div class="travel-popup"><strong>${place.name}</strong>${place.note}</div>`)
+        .addTo(map);
+    });
+
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.28));
+  </script>
+</body>
+</html>
