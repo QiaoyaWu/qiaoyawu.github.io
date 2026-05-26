@@ -117,8 +117,8 @@ author_profile: true
     <span>United States</span>
     <span>United Kingdom</span>
     <span>Germany</span>
-    <span>Bahamas</span>
-    <span>Turks and Caicos</span>
+    <span>The Bahamas</span>
+    <span>Turks and Caicos Islands</span>
     <span>Dominican Republic</span>
   </div>
 </section>
