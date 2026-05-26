@@ -13,7 +13,7 @@ Hi, I’m Wu, Qiaoya (吴巧雅, "Woo, Chow-Yah"), a fifth-year PhD student in t
 My research focuses on **active galactic nuclei (AGNs)** and **quasars**. 
 My current work includes quasar spectral analysis based on large survey data sets such as **SDSS** and **DESI**, as well as photoionization modeling of BLR gas using **CLOUDY**. I am also interested in connecting observations with theoretical accretion disk and SED models.
 
-📄 [View CV](http://qiaoyawu.github.io/files/CV_for_web.pdf)  
+📄 [View CV](https://qiaoyawu.github.io/cv/)  
 
 🔗 [ADS link](https://ui.adsabs.harvard.edu/search/q=docs(library%2FxmjOFxrfRkuPawmB1l3nhQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0)  
 

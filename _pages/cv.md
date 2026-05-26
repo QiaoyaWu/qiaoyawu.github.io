@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+[Download CV]({{ '/files/CV_for_web.pdf' | relative_url }})
+
 <div style="height: 720px; max-height: 75vh; border: 1px solid #d0d7de; border-radius: 4px; overflow: hidden; margin-bottom: 1rem;">
   <iframe
     src="{{ '/files/CV_for_web.pdf' | relative_url }}"
@@ -18,4 +20,4 @@ redirect_from:
   </iframe>
 </div>
 
-[Download CV]({{ '/files/CV_for_web.pdf' | relative_url }})
+
