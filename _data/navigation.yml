@@ -22,6 +22,9 @@ main:
   - title: "Resources"
     url: /resources/
 
+  - title: "Life"
+    url: /life/
+
 
 #  - title: "Guide"
 #    url: /markdown/
