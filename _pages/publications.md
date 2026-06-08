@@ -8,7 +8,7 @@ author_profile: true
 Major Contribution Papers
 ------
 
-- **Wu, Q.**, Shen, Y., Done, C., Goad, M. R., & Hagen, S. (2026). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. II. Slim disks, Self-shadowing, and BLR sizes. *arXiv preprint*, [arXiv:2606.00992](https://arxiv.org/abs/2606.00992).
+- **Wu, Q.**, Shen, Y., Done, C., Goad, M. R., & Hagen, S. (2026). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. II. Slim disks, Self-shadowing, and BLR sizes. arXiv preprint, arXiv:2606.00992.
 - **Wu, Q.**, Shen, Y., Guo, H., et al. (2025). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. I. the Moderate-Accretion Regime. *The Astrophysical Journal*, 980(1), 134.
 - **Wu, Q.**, & Shen, Y. (2023). Improved Redshifts for DESI EDR Quasars. *Research Notes of the AAS*, 7(9), 190.
 - **Wu, Q.**, & Shen, Y. (2022). A Catalog of Quasar Properties from Sloan Digital Sky Survey Data Release 16. *The Astrophysical Journal Supplement Series*, 263(2), 42.
