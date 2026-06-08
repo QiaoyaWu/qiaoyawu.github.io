@@ -148,19 +148,19 @@ In [Wu et al. (2026)](https://arxiv.org/abs/2606.00992), we extend this approach
     <a href="{{ '/images/self-shadow_fig3.png' | relative_url }}">
       <img src="{{ '/images/self-shadow_fig3.png' | relative_url }}" alt="Schematic of self-shadowing in a slim-disk AGN">
     </a>
-    <figcaption>Fig. 3: slim-disk self-shadowing creates anisotropic illumination of the BLR.</figcaption>
+    <figcaption> Slim-disk self-shadowing creates anisotropic illumination of the BLR.</figcaption>
   </figure>
   <figure>
     <a href="{{ '/images/self-shadow_fig5.png' | relative_url }}">
       <img src="{{ '/images/self-shadow_fig5.png' | relative_url }}" alt="Two-dimensional BLR photoionization emissivity map">
     </a>
-    <figcaption>Fig. 5: two-dimensional BLR photoionization maps show how shielding changes the emitting region.</figcaption>
+    <figcaption> Two-dimensional BLR photoionization maps show how shielding changes the emitting region.</figcaption>
   </figure>
   <figure>
     <a href="{{ '/images/self-shadow_fig12.png' | relative_url }}">
       <img src="{{ '/images/self-shadow_fig12.png' | relative_url }}" alt="BLR size-luminosity relation with density-enhanced models">
     </a>
-    <figcaption>Fig. 12: enhanced-density models help reproduce the observed BLR size-luminosity offsets.</figcaption>
+    <figcaption> Enhanced-density models help reproduce the observed BLR size-luminosity offsets.</figcaption>
   </figure>
 </div>
 
