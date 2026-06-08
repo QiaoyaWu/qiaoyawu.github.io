@@ -41,6 +41,32 @@ redirect_from:
     line-height: 1.35;
   }
 
+  .research-figure-strip {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: -0.75rem 0 2rem;
+  }
+
+  .research-figure-strip figure {
+    margin: 0;
+  }
+
+  .research-figure-strip img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d0d7de;
+    border-radius: 4px;
+  }
+
+  .research-figure-strip figcaption {
+    margin-top: 0.45rem;
+    color: #666;
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
+
   @media (max-width: 720px) {
     .research-feature {
       display: block;
@@ -48,6 +74,10 @@ redirect_from:
 
     .research-feature__figure {
       margin-top: 1rem;
+    }
+
+    .research-figure-strip {
+      grid-template-columns: 1fr;
     }
   }
 </style>
@@ -84,17 +114,31 @@ AGN Line-Emitting Region Photoionization
 
 [Wu et al. (2025)](https://iopscience.iop.org/article/10.3847/1538-4357/ada386) compares observed UV emission-line properties and broad-line region (BLR) distances with photoionization models for a sample of reverberation-mapped quasars. These models reproduce key trends in UV and optical line strengths and their dependence on accretion properties, offering a way to infer the otherwise unobservable ionizing continuum from optical/UV line flux ratios. The same framework qualitatively recovers the radius-luminosity relation for the reverberation-mapped AGN sample, suggesting that BLR gas density and structure may evolve systematically with accretion rate.
 
+[Wu et al. (2026)](https://arxiv.org/abs/2606.00992) extends this framework to high-accretion-rate AGNs using slim-disk SEDs and two-dimensional photoionization calculations. The models show that inner-disk self-shadowing reduces the ionizing flux reaching low-latitude BLR clouds and helps flatten the BLR radius-luminosity relation at high accretion rates. Additional accretion-rate-dependent BLR density evolution provides a compact explanation for the shortened reverberation lags observed in high-accretion-rate systems.
+
 </div>
 </div>
 
-<!--
+<div class="research-figure-strip">
+  <figure>
+    <a href="{{ '/images/self-shadow_fig3.png' | relative_url }}">
+      <img src="{{ '/images/self-shadow_fig3.png' | relative_url }}" alt="Schematic of self-shadowing in a slim-disk AGN">
+    </a>
+    <figcaption>Fig. 3: slim-disk self-shadowing creates anisotropic illumination of the BLR.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/self-shadow_fig5.png' | relative_url }}">
+      <img src="{{ '/images/self-shadow_fig5.png' | relative_url }}" alt="Two-dimensional BLR photoionization emissivity map">
+    </a>
+    <figcaption>Fig. 5: two-dimensional BLR photoionization maps show how shielding changes the emitting region.</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ '/images/self-shadow_fig12.png' | relative_url }}">
+      <img src="{{ '/images/self-shadow_fig12.png' | relative_url }}" alt="BLR size-luminosity relation with density-enhanced models">
+    </a>
+    <figcaption>Fig. 12: enhanced-density models help reproduce the observed BLR size-luminosity offsets.</figcaption>
+  </figure>
 </div>
-<figure class="research-feature__figure">
-  <img src="{{ '/images/holder.png' | relative_url }}" alt="Placeholder for an AGN photoionization modeling figure">
-  <figcaption>Suggested figure: observed versus modeled UV line ratios, BLR radius trends, or a parameter-space view connecting accretion properties to line-emitting gas.</figcaption>
-</figure>
-</div>
--->
 
 Black Hole Binary Dynamics
 ------
