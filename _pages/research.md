@@ -8,6 +8,22 @@ redirect_from:
 ---
 
 <style>
+  .research-section {
+    border-top: 1px solid #d0d7de;
+    margin-top: 2.4rem;
+    padding-top: 1.8rem;
+  }
+
+  .research-section:first-of-type {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .research-section > h2 {
+    margin-top: 0;
+  }
+
   .research-feature {
     --figure-width: 36%;
     display: flex;
@@ -82,6 +98,8 @@ redirect_from:
   }
 </style>
 
+<section class="research-section" markdown="1">
+
 Quasar Spectral Survey Analysis
 ------
 <div class="research-feature" style="--figure-width: 36%;" markdown="1">
@@ -106,6 +124,10 @@ We also performed visual inspection and measured spectral properties for 82,363 
   <figcaption>Example PyQSOFit decomposition for an SDSS DR16Q quasar spectrum.</figcaption>
 </figure>
 </div>
+
+</section>
+
+<section class="research-section" markdown="1">
 
 AGN Line-Emitting Region Photoionization
 ------
@@ -140,6 +162,10 @@ AGN Line-Emitting Region Photoionization
   </figure>
 </div>
 
+</section>
+
+<section class="research-section" markdown="1">
+
 Black Hole Binary Dynamics
 ------
 <div class="research-feature" style="--figure-width: 36%;" markdown="1">
@@ -153,6 +179,10 @@ Stellar-mass black holes in X-ray binaries provide important constraints on bina
   <figcaption>Artist illustration of a black hole binary. Image credit: NASA/CXC/M. Weiss.</figcaption>
 </figure>
 </div>
+
+</section>
+
+<section class="research-section" markdown="1">
 
 Cosmological N-body Simulation
 ------
@@ -169,3 +199,5 @@ The large-scale structure (LSS) of the Universe encodes information about cosmol
   <figcaption>Poster preview for the CUBE N-body simulation project on halo spin correlations and primordial perturbations.</figcaption>
 </figure>
 </div>
+
+</section>
