@@ -24,6 +24,26 @@ redirect_from:
     margin-top: 0;
   }
 
+  .research-buzzwords {
+    width: 80%;
+    margin: 0 auto 2rem;
+  }
+
+  .research-buzzwords img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d0d7de;
+    border-radius: 4px;
+  }
+
+  .research-buzzwords figcaption {
+    margin-top: 0.45rem;
+    color: #666;
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+
   .research-feature {
     --figure-width: 36%;
     display: flex;
@@ -84,6 +104,10 @@ redirect_from:
   }
 
   @media (max-width: 720px) {
+    .research-buzzwords {
+      width: 100%;
+    }
+
     .research-feature {
       display: block;
     }
@@ -97,6 +121,11 @@ redirect_from:
     }
   }
 </style>
+
+<figure class="research-buzzwords">
+  <img src="{{ '/images/research-buzzwords.png' | relative_url }}" alt="Word cloud of research topics from papers involving Qiaoya Wu">
+  <figcaption>Here's a word cloud of some research buzzwords from papers that I am involved in.</figcaption>
+</figure>
 
 <section class="research-section" markdown="1">
 
