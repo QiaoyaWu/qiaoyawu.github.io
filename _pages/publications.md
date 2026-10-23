@@ -4,13 +4,12 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-[NASA ADS records](https://ui.adsabs.harvard.edu/search/q=docs(library%2FxmjOFxrfRkuPawmB1l3nhQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0) (October 2026): 600+ citations; h-index 9.
+[NASA ADS records](<https://ui.adsabs.harvard.edu/search/q=docs(library%2FxmjOFxrfRkuPawmB1l3nhQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0>) (October 2026): 600+ citations; h-index 9.
 
 First-author and Major-contribution Papers
-------
+------------------------------------------
 
-- **Wu, Q.**, & Shen, Y. (2026). A Catalog of Spectral Properties for DESI DR1 Quasars. *arXiv preprint*, arXiv:2610.31416.
+- **Wu, Q.**, & Shen, Y. (2026). A Catalog of Spectral Properties for DESI DR1 Quasars. arXiv preprint, arXiv:2610.31416.
 - **Wu, Q.**, Shen, Y., Done, C., Goad, M. R., & Hagen, S. (2026). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. II. Slim Disks, Self-shadowing, and BLR Sizes. arXiv preprint, arXiv:2606.00992 (submitted).
 - **Wu, Q.**, Shen, Y., Guo, H., et al. (2025). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. I. The Moderate-Accretion Regime. *The Astrophysical Journal*, 980(1), 134.
 - **Wu, Q.**, & Shen, Y. (2023). Improved Redshifts for DESI EDR Quasars. *Research Notes of the AAS*, 7(9), 190.
@@ -18,9 +17,9 @@ First-author and Major-contribution Papers
 - Zheng, W. M., **Wu, Q.**, Wu, J., et al. (2022). The Disk Veiling Effect of the Black Hole Low-mass X-Ray Binary A0620-00. *The Astrophysical Journal*, 925(1), 83.
 - **Wu, Q.**, Yu, H. R., Liao, S., & Du, M. (2021). Spin Mode Reconstruction in Lagrangian Space. *Physical Review D*, 103(6), 063522.
 
-
 Other Contributing-author Papers
-------
+--------------------------------
+
 - Buchner, J., et al. (2026). A Large Population of Over-massive Black Hole Quasars at $z=0.3$–$0.8$ Revealed by eROSITA. arXiv preprint, arXiv:2603.22425.
 - SDSS Collaboration, et al. (2026). The Nineteenth Data Release of the Sloan Digital Sky Survey. *The Astrophysical Journal Supplement Series*, 285(1), 9.
 - Aydar, C., et al. (2026). Robust Active Galactic Nucleus and Host-galaxy Decomposition in Optical Spectral Fitting. *Astronomy & Astrophysics*, 710, A141.

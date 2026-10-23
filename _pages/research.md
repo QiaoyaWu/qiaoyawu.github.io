@@ -140,6 +140,9 @@ redirect_from:
       grid-template-columns: 1fr;
     }
 
+    .research-dr1-figure {
+      width: 100%;
+    }
   }
 </style>
 
@@ -168,23 +171,19 @@ We also performed visual inspection and measured spectral properties for 82,363 
 #### DESI EDR
 [Wu & Shen (2023)](https://iopscience.iop.org/article/10.3847/2515-5172/acf580) provides improved systemic redshift estimates for approximately 95,000 quasars in the DESI Early Data Release (EDR) using refined emission-line fitting techniques. We are applying related methods to later DESI quasar samples.
 
+#### DESI DR1
+In [Wu & Shen (2026)](https://arxiv.org/abs/2610.31416), we present a value-added catalog of spectral properties for 1.72 million unique DESI Data Release 1 quasars. The catalog includes uniform spectral decompositions, emission-line measurements, systemic redshifts, and derived black-hole and accretion properties. The [catalog data](https://ariel.astro.illinois.edu/qsofit/DESI_DR1/) and [GitHub repository](https://github.com/QiaoyaWu/desi-dr1-quasar-vac) are publicly available.
+
 </div>
 <figure class="research-feature__figure">
   <img src="{{ '/images/sdss_dr16q_pyqsofit.png' | relative_url }}" alt="PyQSOFit on SDSS DR16Q">
   <figcaption>Example PyQSOFit decomposition for an SDSS DR16Q quasar spectrum.</figcaption>
 </figure>
 </div>
-<div class="research-feature" style="--figure-width: 36%;" markdown="1">
-<div class="research-feature__text" markdown="1">
-
-#### DESI DR1
-In [Wu & Shen (2026)](https://arxiv.org/abs/2610.31416), we present a value-added catalog of spectral properties for 1.72 million unique DESI Data Release 1 quasars. The catalog includes uniform spectral decompositions, emission-line measurements, systemic redshifts, and derived black-hole and accretion properties. The [catalog data](https://ariel.astro.illinois.edu/qsofit/DESI_DR1/) and [GitHub repository](https://github.com/QiaoyaWu/desi-dr1-quasar-vac) are publicly available.
 
 </div>
 <figure class="research-feature__figure">
-  <a href="{{ '/images/ML_z.png' | relative_url }}">
-    <img src="{{ '/images/ML_z.png' | relative_url }}" alt="DESI DR1 quasar bolometric luminosity and black-hole mass distributions across redshift">
-  </a>
+  <img src="{{ '/images/ML_z.png' | relative_url }}" alt="DESI DR1 quasar bolometric luminosity and black-hole mass distributions across redshift">
   <figcaption>Bolometric luminosity and black-hole mass distributions for quasars in the DESI DR1 value-added catalog.</figcaption>
 </figure>
 </div>
