@@ -13,7 +13,7 @@ This section collects quasar value-added catalogs (VACs), code, and reproducible
 
 
 **DESI DR1 Quasar VAC**  
-Wu & Shen (2026)
+Wu & Shen (2026)<br>
 [Data](https://ariel.astro.illinois.edu/qsofit/DESI_DR1/) · [GitHub](https://github.com/QiaoyaWu/desi-dr1-quasar-vac)
 
 **DESI EDR redshift catalog**  
