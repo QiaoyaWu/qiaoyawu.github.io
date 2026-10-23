@@ -52,6 +52,18 @@ redirect_from:
     margin: 0 0 2rem;
   }
 
+  .research-feature--survey {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    align-items: start;
+  }
+
+  .research-feature__figures {
+    display: grid;
+    gap: 1.25rem;
+    min-width: 0;
+  }
+
   .research-feature__text {
     flex: 1 1 auto;
     min-width: 0;
@@ -132,8 +144,16 @@ redirect_from:
       display: block;
     }
 
+    .research-feature__figures {
+      margin-top: 1rem;
+    }
+
     .research-feature__figure {
       margin-top: 1rem;
+    }
+
+    .research-feature__figures .research-feature__figure {
+      margin-top: 0;
     }
 
     .research-figure-strip {
@@ -155,7 +175,7 @@ redirect_from:
 
 Quasar Spectral Survey Analysis
 ------
-<div class="research-feature" style="--figure-width: 36%;" markdown="1">
+<div class="research-feature research-feature--survey" markdown="1">
 <div class="research-feature__text" markdown="1">
 
 Large spectroscopic surveys have transformed the study of quasars and active galactic nuclei by providing uniform, multi-wavelength observations across cosmic time. My work develops and applies spectral-fitting methods to measure the physical properties of large quasar samples and produce value-added catalogs for the broader community.
@@ -175,6 +195,7 @@ We also performed visual inspection and measured spectral properties for 82,363 
 In [Wu & Shen (2026)](https://arxiv.org/abs/2610.31416), we present a value-added catalog of spectral properties for 1.72 million unique DESI Data Release 1 quasars. The catalog includes uniform spectral decompositions, emission-line measurements, systemic redshifts, and derived black-hole and accretion properties. The [catalog data](https://ariel.astro.illinois.edu/qsofit/DESI_DR1/) and [GitHub repository](https://github.com/QiaoyaWu/desi-dr1-quasar-vac) are publicly available.
 
 </div>
+<div class="research-feature__figures">
 <figure class="research-feature__figure">
   <img src="{{ '/images/sdss_dr16q_pyqsofit.png' | relative_url }}" alt="PyQSOFit on SDSS DR16Q">
   <figcaption>Example PyQSOFit decomposition for an SDSS DR16Q quasar spectrum.</figcaption>
@@ -184,6 +205,7 @@ In [Wu & Shen (2026)](https://arxiv.org/abs/2610.31416), we present a value-adde
   <img src="{{ '/images/ML_z.png' | relative_url }}" alt="DESI DR1 quasar bolometric luminosity and black-hole mass distributions across redshift">
   <figcaption>Bolometric luminosity and black-hole mass distributions for quasars in the DESI DR1 value-added catalog.</figcaption>
 </figure>
+</div>
 </div>
 
 </section>
