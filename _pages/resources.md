@@ -10,12 +10,12 @@ redirect_from:
 
 This section collects quasar value-added catalogs (VACs), code, and reproducible workflows from my quasar spectral-analysis projects.
 
-**DESI DR1 Quasar VAC**
-Wu & Shen (2026)  
+**DESI DR1 Quasar VAC**<br>
+Wu & Shen (2026)<br>
 [Data](https://ariel.astro.illinois.edu/qsofit/DESI_DR1/) · [GitHub](https://github.com/QiaoyaWu/desi-dr1-quasar-vac)
 
-**DESI EDR redshift catalog**
-Wu & Shen (2023)
+**DESI EDR redshift catalog**  
+Wu & Shen (2023)  
 [Code/Data](https://github.com/QiaoyaWu/DESI_EDR_qsofit)
 
 **SDSS DR16Q value-added catalog**

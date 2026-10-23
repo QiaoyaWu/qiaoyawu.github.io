@@ -103,6 +103,26 @@ redirect_from:
     line-height: 1.35;
   }
 
+  .research-dr1-figure {
+    width: min(62%, 560px);
+    margin: 0 auto 2rem;
+  }
+
+  .research-dr1-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d0d7de;
+    border-radius: 4px;
+  }
+
+  .research-dr1-figure figcaption {
+    margin-top: 0.45rem;
+    color: #666;
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+
   @media (max-width: 720px) {
     .research-buzzwords {
       width: 100%;
