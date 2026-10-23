@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-NASA ADS records (October 2026): 600+ citations; h-index 9.
+[NASA ADS records](https://ui.adsabs.harvard.edu/search/q=docs(library%2FxmjOFxrfRkuPawmB1l3nhQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0) (October 2026): 600+ citations; h-index 9.
 
 First-author and Major-contribution Papers
 ------
