@@ -58,12 +58,6 @@ redirect_from:
     align-items: start;
   }
 
-  .research-feature__figures {
-    display: grid;
-    gap: 1.25rem;
-    min-width: 0;
-  }
-
   .research-feature__text {
     flex: 1 1 auto;
     min-width: 0;
@@ -144,16 +138,8 @@ redirect_from:
       display: block;
     }
 
-    .research-feature__figures {
-      margin-top: 1rem;
-    }
-
     .research-feature__figure {
       margin-top: 1rem;
-    }
-
-    .research-feature__figures .research-feature__figure {
-      margin-top: 0;
     }
 
     .research-figure-strip {
@@ -187,6 +173,16 @@ In [Wu & Shen (2022)](https://iopscience.iop.org/article/10.3847/1538-4365/ac9ea
 #### SDSS-V DR19Q
 We also performed visual inspection and measured spectral properties for 82,363 quasars observed in SDSS DR19. [The value-added catalog](https://www.sdss.org/dr19/data_access/value-added-catalogs/?vac_id=10009) is publicly available through SDSS.
 
+</div>
+<figure class="research-feature__figure">
+  <img src="{{ '/images/sdss_dr16q_pyqsofit.png' | relative_url }}" alt="PyQSOFit on SDSS DR16Q">
+  <figcaption>Example PyQSOFit decomposition for an SDSS DR16Q quasar spectrum.</figcaption>
+</figure>
+</div>
+
+<div class="research-feature research-feature--survey" markdown="1">
+<div class="research-feature__text" markdown="1">
+
 ### Dark Energy Spectroscopic Instrument (DESI) quasars
 #### DESI EDR
 [Wu & Shen (2023)](https://iopscience.iop.org/article/10.3847/2515-5172/acf580) provides improved systemic redshift estimates for approximately 95,000 quasars in the DESI Early Data Release (EDR) using refined emission-line fitting techniques. We are applying related methods to later DESI quasar samples.
@@ -195,17 +191,10 @@ We also performed visual inspection and measured spectral properties for 82,363 
 In [Wu & Shen (2026)](https://arxiv.org/abs/2610.31416), we present a value-added catalog of spectral properties for 1.72 million unique DESI Data Release 1 quasars. The catalog includes uniform spectral decompositions, emission-line measurements, systemic redshifts, and derived black-hole and accretion properties. The [catalog data](https://ariel.astro.illinois.edu/qsofit/DESI_DR1/) and [GitHub repository](https://github.com/QiaoyaWu/desi-dr1-quasar-vac) are publicly available.
 
 </div>
-<div class="research-feature__figures">
-<figure class="research-feature__figure">
-  <img src="{{ '/images/sdss_dr16q_pyqsofit.png' | relative_url }}" alt="PyQSOFit on SDSS DR16Q">
-  <figcaption>Example PyQSOFit decomposition for an SDSS DR16Q quasar spectrum.</figcaption>
-</figure>
-
 <figure class="research-feature__figure">
   <img src="{{ '/images/ML_z.png' | relative_url }}" alt="DESI DR1 quasar bolometric luminosity and black-hole mass distributions across redshift">
   <figcaption>Bolometric luminosity and black-hole mass distributions for quasars in the DESI DR1 value-added catalog.</figcaption>
 </figure>
-</div>
 </div>
 
 </section>
