@@ -10,6 +10,7 @@ NASA ADS records (October 2026): 600+ citations; h-index 9.
 First-author and Major-contribution Papers
 ------
 
+- **Wu, Q.**, & Shen, Y. (2026). A Catalog of Spectral Properties for DESI DR1 Quasars. *arXiv preprint*, arXiv:2610.31416.
 - **Wu, Q.**, Shen, Y., Done, C., Goad, M. R., & Hagen, S. (2026). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. II. Slim Disks, Self-shadowing, and BLR Sizes. arXiv preprint, arXiv:2606.00992 (submitted).
 - **Wu, Q.**, Shen, Y., Guo, H., et al. (2025). Understanding the Broad-line Region of Active Galactic Nuclei with Photoionization. I. The Moderate-Accretion Regime. *The Astrophysical Journal*, 980(1), 134.
 - **Wu, Q.**, & Shen, Y. (2023). Improved Redshifts for DESI EDR Quasars. *Research Notes of the AAS*, 7(9), 190.
