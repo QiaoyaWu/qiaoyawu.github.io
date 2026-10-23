@@ -179,9 +179,7 @@ In [Wu & Shen (2026)](https://arxiv.org/abs/2610.31416), we present a value-adde
   <img src="{{ '/images/sdss_dr16q_pyqsofit.png' | relative_url }}" alt="PyQSOFit on SDSS DR16Q">
   <figcaption>Example PyQSOFit decomposition for an SDSS DR16Q quasar spectrum.</figcaption>
 </figure>
-</div>
 
-</div>
 <figure class="research-feature__figure">
   <img src="{{ '/images/ML_z.png' | relative_url }}" alt="DESI DR1 quasar bolometric luminosity and black-hole mass distributions across redshift">
   <figcaption>Bolometric luminosity and black-hole mass distributions for quasars in the DESI DR1 value-added catalog.</figcaption>
