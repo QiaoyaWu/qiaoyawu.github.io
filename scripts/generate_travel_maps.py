@@ -99,15 +99,22 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--countries", help="Optional local Natural Earth country GeoJSON")
     parser.add_argument("--regions", help="Optional local Natural Earth admin-1 GeoJSON")
+    parser.add_argument("--map-units", help="Optional local Natural Earth 10m map-unit GeoJSON")
     args = parser.parse_args()
     countries = data("ne_50m_admin_0_countries.geojson", args.countries)
     regions = data("ne_50m_admin_1_states_provinces.geojson", args.regions)
+    map_units = data("ne_10m_admin_0_map_units.geojson", args.map_units)
+    china_regions = [f for f in regions if f["properties"].get("admin") == "China"]
+    for feature in map_units:
+        name = feature["properties"].get("NAME")
+        if name in {"Taiwan", "Hong Kong"}:
+            china_regions.append({"properties": {"name": name}, "geometry": feature["geometry"]})
     highlights = highlights_from_csv()
     maps = [
         ("world.svg", "World", "Countries colored by hometown, lived, or travel category.",
          countries, "ADMIN", highlights["world"], (-170, -58, 190, 83), 490),
         ("china.svg", "China", "Provinces colored by hometown, lived, or travel category.",
-         [f for f in regions if f["properties"].get("admin") == "China"],
+         china_regions,
          "name", highlights["china"], (73, 18, 135, 54), 550),
         ("usa.svg", "United States", "States colored by hometown, lived, or travel category.",
          [f for f in regions if f["properties"].get("admin") == "United States of America"],

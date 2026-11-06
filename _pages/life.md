@@ -39,6 +39,7 @@ author_profile: true
 
   .travel-gallery {
     display: flex;
+    align-items: flex-start;
     gap: 1rem;
     overflow-x: auto;
     padding: 0.25rem 0 1rem;
@@ -60,13 +61,6 @@ author_profile: true
     display: block;
     width: 100%;
     height: auto;
-  }
-
-  .travel-map figcaption {
-    padding: 0.55rem 0.85rem 0.7rem;
-    color: #555;
-    font-size: 0.85rem;
-    line-height: 1.4;
   }
 
   .travel-key {
@@ -124,17 +118,14 @@ author_profile: true
   <div class="travel-gallery" aria-label="Horizontally scrollable travel map gallery">
     <figure class="travel-map" data-map="world">
       <img src="{{ '/travelmap/world.svg' | relative_url }}" alt="World map with colored countries">
-      <figcaption>Hometown: China | Lived: United States of America | Traveled: Singapore · Germany · South Korea · Malaysia · United Kingdom</figcaption>
     </figure>
 
     <figure class="travel-map" data-map="china">
       <img src="{{ '/travelmap/china.svg' | relative_url }}" alt="China map with colored provinces">
-      <figcaption>Hometown: Sichuan | Lived: Fujian | Traveled: Hubei · Yunnan · Beijing</figcaption>
     </figure>
 
     <figure class="travel-map" data-map="usa">
       <img src="{{ '/travelmap/usa.svg' | relative_url }}" alt="United States map with colored states">
-      <figcaption>Lived: Illinois · New York | Traveled: California · Florida</figcaption>
     </figure>
   </div>
 </section>

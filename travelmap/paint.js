@@ -1,9 +1,8 @@
-// The SVGs provide boundaries; places.csv provides the colors and captions.
+// The SVGs provide boundaries; places.csv provides the colors.
 (() => {
   const script = document.currentScript;
   const colors = { hometown: "#c96b5c", lived: "#4c9b9a", travel: "#d5a54f" };
   const priority = { travel: 1, lived: 2, hometown: 3 };
-  const labels = { hometown: "Hometown", lived: "Lived", travel: "Traveled" };
 
   function parseLine(line) {
     const values = [];
@@ -58,27 +57,11 @@
       }
     });
 
-    const available = new Set();
     svg.querySelectorAll("path[data-region]").forEach((path) => {
       const region = path.getAttribute("data-region");
       const category = categories.get(region);
-      available.add(region);
       path.setAttribute("fill", category ? colors[category] : "#dce5e7");
     });
-
-    const displayed = { hometown: [], lived: [], travel: [] };
-    places.filter((place) => place.map === figure.dataset.map).forEach((place) => {
-      const category = categories.get(place.region);
-      if (available.has(place.region) && category && !displayed[category].includes(place.region)) {
-        displayed[category].push(place.region);
-      }
-    });
-
-    const caption = Object.keys(displayed)
-      .filter((category) => displayed[category].length)
-      .map((category) => `${labels[category]}: ${displayed[category].join(" · ")}`)
-      .join("  |  ");
-    figure.querySelector("figcaption").textContent = caption || "No places added yet";
     image.replaceWith(document.importNode(svg, true));
   }
 
