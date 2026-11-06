@@ -38,43 +38,46 @@ author_profile: true
   }
 
   .travel-map {
+    margin: 0 0 1rem;
     border: 1px solid #d0d7de;
     border-radius: 4px;
     overflow: hidden;
     background: #f8fafc;
   }
 
-  .travel-map iframe {
+  .travel-map img,
+  .travel-map svg {
     display: block;
     width: 100%;
-    height: min(72vh, 620px);
-    min-height: 420px;
-    border: 0;
+    height: auto;
   }
 
-  .travel-map__caption {
-    margin-top: 0;
-    padding: 0 0.85rem 0.85rem;
-    color: #666;
-    font-size: 0.8rem;
-    line-height: 1.35;
+  .travel-map figcaption {
+    padding: 0.55rem 0.85rem 0.7rem;
+    color: #555;
+    font-size: 0.85rem;
+    line-height: 1.4;
   }
 
-  .travel-list {
+  .travel-key {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-top: 0.9rem;
+    gap: 0.5rem 1.25rem;
+    margin: 0 0 1rem;
+    font-size: 0.85rem;
   }
 
-  .travel-list span {
+  .travel-key span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .travel-key i {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 2px;
     display: inline-block;
-    padding: 0.25rem 0.5rem;
-    border: 1px solid #d0d7de;
-    border-radius: 4px;
-    color: #444;
-    font-size: 0.82rem;
-    line-height: 1.2;
   }
 </style>
 
@@ -100,11 +103,28 @@ author_profile: true
 
 <section class="life-section">
   <h2>Travel</h2>
-  <p>Travel map</p>
+  <p>A few places that have been part of my story. More to come!</p>
 
-  <div class="travel-map">
-    <iframe src="{{ '/travelmap/map.html' | relative_url }}" title="Interactive travel map"></iframe>
-    <div class="travel-map__caption">Visited countries and regions. Drag, zoom, and click markers for labels.</div>
+  <div class="travel-key" aria-label="Map color key">
+    <span><i style="background: #c96b5c"></i>Hometown</span>
+    <span><i style="background: #4c9b9a"></i>Lived</span>
+    <span><i style="background: #d5a54f"></i>Traveled</span>
   </div>
 
+  <figure class="travel-map" data-map="world">
+    <img src="{{ '/travelmap/world.svg' | relative_url }}" alt="World map with colored countries">
+    <figcaption>Traveled: Germany · United Kingdom</figcaption>
+  </figure>
+
+  <figure class="travel-map" data-map="china">
+    <img src="{{ '/travelmap/china.svg' | relative_url }}" alt="China map with colored provinces">
+    <figcaption>Hometown: Sichuan | Lived: Fujian | Traveled: Beijing</figcaption>
+  </figure>
+
+  <figure class="travel-map" data-map="usa">
+    <img src="{{ '/travelmap/usa.svg' | relative_url }}" alt="United States map with colored states">
+    <figcaption>Lived: Illinois · New York | Traveled: California · Florida</figcaption>
+  </figure>
 </section>
+
+<script defer src="{{ '/travelmap/paint.js' | relative_url }}" data-places="{{ '/travelmap/places.csv' | relative_url }}"></script>
