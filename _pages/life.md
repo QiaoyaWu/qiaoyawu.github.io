@@ -37,8 +37,18 @@ author_profile: true
     border-radius: 4px;
   }
 
+  .travel-gallery {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 0.25rem 0 1rem;
+    scroll-snap-type: x proximity;
+  }
+
   .travel-map {
-    margin: 0 0 1rem;
+    flex: 0 0 min(88%, 720px);
+    margin: 0;
+    scroll-snap-align: start;
     border: 1px solid #d0d7de;
     border-radius: 4px;
     overflow: hidden;
@@ -111,20 +121,22 @@ author_profile: true
     <span><i style="background: #d5a54f"></i>Traveled</span>
   </div>
 
-  <figure class="travel-map" data-map="world">
-    <img src="{{ '/travelmap/world.svg' | relative_url }}" alt="World map with colored countries">
-    <figcaption>Traveled: Germany · United Kingdom</figcaption>
-  </figure>
+  <div class="travel-gallery" aria-label="Horizontally scrollable travel map gallery">
+    <figure class="travel-map" data-map="world">
+      <img src="{{ '/travelmap/world.svg' | relative_url }}" alt="World map with colored countries">
+      <figcaption>Hometown: China | Lived: United States of America | Traveled: Singapore · Germany · South Korea · Malaysia · United Kingdom</figcaption>
+    </figure>
 
-  <figure class="travel-map" data-map="china">
-    <img src="{{ '/travelmap/china.svg' | relative_url }}" alt="China map with colored provinces">
-    <figcaption>Hometown: Sichuan | Lived: Fujian | Traveled: Beijing</figcaption>
-  </figure>
+    <figure class="travel-map" data-map="china">
+      <img src="{{ '/travelmap/china.svg' | relative_url }}" alt="China map with colored provinces">
+      <figcaption>Hometown: Sichuan | Lived: Fujian | Traveled: Hubei · Yunnan · Beijing</figcaption>
+    </figure>
 
-  <figure class="travel-map" data-map="usa">
-    <img src="{{ '/travelmap/usa.svg' | relative_url }}" alt="United States map with colored states">
-    <figcaption>Lived: Illinois · New York | Traveled: California · Florida</figcaption>
-  </figure>
+    <figure class="travel-map" data-map="usa">
+      <img src="{{ '/travelmap/usa.svg' | relative_url }}" alt="United States map with colored states">
+      <figcaption>Lived: Illinois · New York | Traveled: California · Florida</figcaption>
+    </figure>
+  </div>
 </section>
 
 <script defer src="{{ '/travelmap/paint.js' | relative_url }}" data-places="{{ '/travelmap/places.csv' | relative_url }}"></script>

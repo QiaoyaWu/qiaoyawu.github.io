@@ -1,8 +1,15 @@
 map,region,category
+world,China,hometown
+world,United States of America,lived
+world,Singapore,travel
 world,Germany,travel
+world,South Korea,travel
+world,Malaysia,travel
 world,United Kingdom,travel
 china,Sichuan,hometown
 china,Sichuan,lived
+china,Hubei,travel
+china,Yunnan,travel
 china,Fujian,lived
 china,Beijing,travel
 usa,Illinois,lived
